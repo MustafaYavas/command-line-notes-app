@@ -1,11 +1,7 @@
 const yargs = require("yargs");
 const notes = require("./notes");
 
-// console.log(process.argv);
-// console.log(yargs.argv);
 
-// Customize yargs version
-yargs.version("1.1.0");
 
 // Create add command
 yargs.command({
@@ -14,8 +10,8 @@ yargs.command({
     builder: {
         title: {
             describe: "Note title",
-            demandOption: true,     // başlık verme zorunlu
-            type: "string"          // başlık tipi string
+            demandOption: true,    
+            type: "string"          
         },
         body: {
             describe: "Note body",
