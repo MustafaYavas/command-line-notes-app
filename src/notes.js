@@ -4,12 +4,11 @@ const chalk = require("chalk");
 
 const addNote = (title, body) => {
     const notes = loadNotes();
-    // const duplicateNotes = notes.filter( (note) => note.title === title);
     const duplicateNote = notes.find( (note) => note.title === title);
 
     debugger
 
-    if(!duplicateNote) {    // duplicateNote === undefined ile aynı yani undefined ise tekrarlama yoktur ve not eklenecektir
+    if(!duplicateNote) {
         notes.push({
             title,
             body
