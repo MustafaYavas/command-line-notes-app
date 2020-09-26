@@ -1,7 +1,7 @@
 # command-line-notes-app
 
 ## About
-***An app to keep your notes***
+***A simple app to take your notes***
 
 ## Technologies
 * Javascript - Node.js
