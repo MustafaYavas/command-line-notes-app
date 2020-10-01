@@ -11,13 +11,13 @@
     npm install
 
 #### Add Note Example:
-    node src\\index.js add --title="title" --body="body"
+    node src/index.js add --title="title" --body="body"
 
 #### Remove Note Example
-    node src\\index.js remove --title="title"
+    node src/index.js remove --title="title"
 
 #### List Note Example
-    node src\\index.js list
+    node src/index.js list
 
 #### Read Note Example
-    node src\\index.js read --title="title"
+    node src/index.js read --title="title"
